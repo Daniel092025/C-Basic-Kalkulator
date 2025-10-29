@@ -1,6 +1,6 @@
 # Kalkulator Pseudo
 
-### Oppsett av verdier til "RegnUt" som er den som får en overload
+### Oppsett av verdier til "RegnUt" som er den som får en overload.
 ```csharp
 public static double RegnUt(double a, double b, string oper)
     {
@@ -24,7 +24,7 @@ public static double RegnUt(double a, string oper)
 
 
 
-### Velkomst beskjed osv. Forsøk på interface etter den man kan nå, men litt ACII og farge.
+### Velkomst beskjed osv. Forsøk på interface etter den man kan nå, med litt ACII og farge.
 ```csharp
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("Superkalkulatoren er aktiv!\n");
@@ -46,7 +46,7 @@ while (fortsett)
         }
 ```
 
-#### //Sjekk på om en sann verdi er tastet inn, hvis ikke kommer feilmelding. Litt samme som LesTall, men forsto ikke helt hvordan jeg skulle gjøre det for denne og "+" "-".... operasjonen sammen.
+#### Sjekk på om en sann verdi er tastet inn, hvis ikke kommer feilmelding. Litt samme som LesTall, men forsto ikke helt hvordan jeg skulle gjøre det for denne og "+" "-".... operasjonen sammen.
 ```csharp
                 string ops = "";
                 bool doubleOperasjon = false;
@@ -68,7 +68,7 @@ while (fortsett)
                 }  
 ```
 
-#### // Som forsetter hvis du velger 1 eller 2, gjør utregninger å skriver "j" på om du skal forsette.
+#### Som forsetter hvis du velger 1 eller 2, gjør utregninger å skriver "j" på om du skal forsette.
 
 ### Forsøker å gjøre om input til tall med tryparse. Hvis den komme tilbake "false" aka bruker skriver bokstaver, kommer feilmelding. Var ett forslag fra chatgpt for å unngå en del gjenntagende kode, som jeg begynte å skrive.
 ```csharp
@@ -85,7 +85,7 @@ static double LesTall()
 ```
 
 
-### Avslutning med writeline med ACII og noe forgroundcolor for "bedre" interface.
+### Avslutning med writeline med ACII og noe foregroundcolor for "bedre" interface.
 ```csharp
  Console.WriteLine("\n👻Takk for at du ville kalkulere!👻");
         Console.ForegroundColor = ConsoleColor.Yellow;
